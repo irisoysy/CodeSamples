@@ -136,6 +136,9 @@ end
 
 end %ends main function
 
+%%%%%%%%%%%%%%%%%%%%%%%
+% Polynomial Division %
+%%%%%%%%%%%%%%%%%%%%%%%
 function [e,f,g] = polynomialDivision(a,b,c,d,realRoot)
 %takes in a cubic polynomial and then uses long division to determine
 %the coefficients for the factored quadratic polynomial. This will allow
@@ -161,6 +164,9 @@ end
 
 end %ends subfunction polynomialDivision
 
+%%%%%%%%%%%%%%%%%%%
+% Newton's Method %
+%%%%%%%%%%%%%%%%%%%
 function [Root] = newtonsMethod(a,b,c,d,guess,iterations,tol)
 
 %a,b,c,d are the cubic coefficients. Use this to produce f and df for
@@ -200,8 +206,11 @@ end
 
 out = Root;
 
-end
+end %ends subfunction complexNewton
 
+%%%%%%%%%%%%%%%%%%%%%%
+% Basic Root Finders %
+%%%%%%%%%%%%%%%%%%%%%%
 function [out] = linearRootFinder(a,b)
 %ax+b
 
