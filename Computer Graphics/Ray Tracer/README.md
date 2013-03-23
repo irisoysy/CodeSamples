@@ -1,9 +1,6 @@
 CS184 Assignment 2
 Spring 2013
 
-Zack Mayeda (cs184-bg)
-Tyler Brabham (cs184-ej)
+Authors: Tyler Brabham,  Zack Mayeda.
 
-Our code runs on Unix (specifically, the hive instructional machines).
-
-Zack submitted the source code.
+This is a full implementation of a ray tracer completed in C++.
