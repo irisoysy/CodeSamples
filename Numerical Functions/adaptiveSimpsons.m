@@ -23,7 +23,7 @@ end %ends main function
 
 function [Int,fcnt,info] = adaptiveSimpsons(fun,a,b,h,prevInt,prevf,tol,level)
 %actually does all the work for the main function, but has level as an
-%input so it can be implemente recursively.
+%input so it can be implemented recursively.
 
 %prevInt is the previous integral which led to this call of
 %adaptiveSimpsons, and prevf is all the previous function evaluations.
