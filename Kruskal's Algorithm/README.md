@@ -7,4 +7,4 @@ such as a DisjointSets class, and an internal representation of a Weighted Undir
 
 I was able to reuse this code for my Artificial Intelligence class (CS188 at Berkeley) as part of
 a consistent heuristic for A* Search. That code is not available due to not wanting to distribute
-a solution for that class.
+a solution for that class. That particular code was in python.
